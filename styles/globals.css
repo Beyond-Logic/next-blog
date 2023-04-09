@@ -1,0 +1,35 @@
+/* Light Theme */
+:root {
+  --background-color: white;
+  --link-color: palevioletred;
+  --text-color: black;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--link-color);
+}
+
+a:focus,
+a:hover {
+  text-decoration: underline;
+}
+
+/* nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+}
+
+nav li:not(:first-child) {
+  margin-left: 0.75rem;
+} */
